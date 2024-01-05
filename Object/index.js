@@ -28,7 +28,7 @@ function Rectangle(len, bre){
         console.log('drawing');
     }
 }
-*/
+*/ 
 //boject creation using constructor function
 
 /*let rectangleObj = new Rectangle(4,6);
