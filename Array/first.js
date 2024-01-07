@@ -69,3 +69,13 @@ console.log(name2);
    }
    )
    console.log(filtered);
+
+   // Map an Array
+
+   let number2=[7,8,5,6,2];
+   let items=number2.map(
+    function(value){
+        return 'student_no' + value;
+    }
+   )
+   console.log(items);
