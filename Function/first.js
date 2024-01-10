@@ -18,7 +18,8 @@ function sum(a,b){
 console.log(sum(45,56));
 
 
-// dynamic argument
+// dynamic argument 
+//its mean one ya more than one numbrer add for this number
 function add(n,m){
     let total =0;
     for(let value of arguments)
