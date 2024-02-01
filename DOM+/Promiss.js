@@ -4,7 +4,9 @@ let meraPromise=new Promise(function(resolve, reject)
     {
         console.log('I am inside');
     }, 5000);
-    //resolve(2022);
-    reject(new Error('kucch error aaya hai'))
+    resolve(2022);
+    //reject(new Error('kucch error aaya hai'))
 });
+
+meraPromise.then((value) => {console.log(value)});
 console.log('Pehla');
