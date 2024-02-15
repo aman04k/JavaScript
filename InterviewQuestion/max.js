@@ -5,4 +5,4 @@ const maxFunction = (arr) => {
     });
 };
 
-console.log(maxFunction(num)); // Output: 2656
+console.log(maxFunction(num)); 
