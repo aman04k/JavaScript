@@ -1,11 +1,10 @@
- let num = [1,2,3,5];
- let count=0;
- for(let i=0; i<num; i++){
- if(num[i] != num[i-1]){
+let n = [1, 2, 3, 5];
+let sum = 0;
+let total = (n.length * (n.length + 1)) / 2;
 
+for (let i = 0; i < n.length; i++) {
+    sum = sum + n[i];
+}
 
-          count++;
- }
-
- }
- console.log(count);
+let miss = total - sum;
+console.log(miss); // Output: 4
